@@ -1,5 +1,6 @@
-#!/bin/sh
+#!/bin/sh -x
+pwd
 
-wget -c https://www.icescrum.com/downloads/v7/icescrum.jar -O $HOME/icescrum.jar
+wget -c https://www.icescrum.com/downloads/v7/icescrum.jar -O icescrum.jar
 
-/usr/bin/java -jar $HOME/icescrum.jar
+/usr/bin/java -jar icescrum.jar
